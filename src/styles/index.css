@@ -1,4 +1,45 @@
+.traffic-light {
+    height: 400px;
+    width: 150px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(255, 209, 5);
+    border-radius: 20px;
+}
 
+.traffic-light_pole {
+    height: 100px;
+    width: 20px;
+    background: rgb(255, 209, 5);
+    border: 1px solid rgb(255, 209, 5);
+    margin: 0 auto;
+}
+
+.light {
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+.red {
+    background: red;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.green {
+    background: green;
+}
+
+.turn-on {
+    box-shadow: rgba(224, 218, 218, 0.80) 0px 0px 80px 7px;
+}
 /* 
 
     You can write your own styles here...
